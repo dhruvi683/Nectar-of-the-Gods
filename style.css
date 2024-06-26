@@ -1,0 +1,67 @@
+.hero {
+    position: relative;
+    max-height: 600px;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    color: white;
+    width: 500px;
+
+    animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.hero img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.hero-text h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-text a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+    border-style: solid;
+    border-color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255, 0.3);
+}
+
+.hero-text a:hover {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
+} 
