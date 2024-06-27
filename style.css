@@ -345,3 +345,58 @@ figcaption ~ p {
 .offer-box_1 button:hover {
     background-color: #ddd;
 }
+.brands {
+
+
+    background-color: rgba(11, 30, 80, 1);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brands h2{
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    font-size: 2em;
+   
+    }
+
+    .brands p {
+        color: rgba(255, 255, 255, 1);
+        margin: 0 0 20px;
+       
+    }
+
+   .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10px;
+    
+   }
+
+   .image-container figure {
+    margin: 0;
+    text-align: center;
+   
+   }
+
+   .image-container figure img {
+
+    width: 115px;
+    height: 115px;
+    max-width: 100%;
+    display: block;
+    object-fit:contain ;
+    border-radius: 50%;
+    background-color: white;
+    
+   }
+
+   .image-container figcaption {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
+   }
+
+   
