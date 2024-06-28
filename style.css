@@ -219,7 +219,7 @@ header {
 }
 
 footer {
-    background-color: #11224d;
+    background-color: rgba(11, 30, 80, 1);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -322,7 +322,7 @@ figcaption ~ p {
 
 
 .special-offer-section {
-    background-color: #11224d;
+    background-color:rgba(11, 30, 80, 1);
     color: white;
     padding: 50px 0;
     text-align: center;
